@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "あれから131日目"
-date:   2024-11-14 23:17:30 +0900
-categories: diary
+category: diary
 ---
 131日目。
 

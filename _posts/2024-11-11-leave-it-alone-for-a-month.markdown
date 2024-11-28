@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "一ヶ月ほったらかし"
-date:   2024-11-11 23:59:59 +0900
-categories: update
+category: diary
 ---
 ほったらかしてたら1ヶ月経っていてなにも進んでなかった。  
 まずいまずい。  

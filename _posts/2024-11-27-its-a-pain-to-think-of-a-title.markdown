@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "題名考えるのも面倒だ"
-date:   2024-11-27 13:31:00 +0900
-categories: update
+category: diary
 ---
 144日目。
 
