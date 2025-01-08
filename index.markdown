@@ -3,9 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-tilte: "((( mosmow.dev blog )))"
+title: "((( mosmow.dev blog )))"
 ---
 
-動きの鈍いアラフィフのオッサンがなにかを晒していく場所です。  
-HTML手書きはしんどいので jekyll を試し中。  
-開発ブログと呼びたいが何も開発はしていない。  
+動きの鈍いアラフィフのオッサンが何かを残す場所。  
+開発ブログと呼びたいが何も開発はしていないかもしれない。
