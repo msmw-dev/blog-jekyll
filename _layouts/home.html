@@ -28,6 +28,15 @@ layout: default
       {%- endfor -%}
     </ul>
 
+    <div class="pagination">
+      {%- if paginator.previous_page -%}
+      <a class="previous" href="{{ paginator.previous_page_path }}">← Previous</a>&nbsp; 
+      {%- endif -%}
+      {%- if paginator.next_page -%}
+      <a class="next" href="{{ paginator.next_page_path }}">Next →</a>
+      {%- endif -%}
+    </div>
+
     <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
   {%- endif -%}
 
