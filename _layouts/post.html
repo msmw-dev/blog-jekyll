@@ -19,6 +19,23 @@ layout: default
     {{ content }}
   </div>
 
+<div class="post-navigation">
+  <span class="prev-post">
+    {% if page.previous %}
+      Prev: <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+    {% else %}
+      Prev: <span class="disabled">-</span>
+    {% endif %}
+  </span><br> 
+  <span class="next-post">
+    {% if page.next %}
+      Next: <a href="{{ page.next.url }}">{{ page.next.title }}</a>
+    {% else %}
+      Next: <span class="disabled">-</span>
+    {% endif %}
+  </span>
+</div>
+
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}
