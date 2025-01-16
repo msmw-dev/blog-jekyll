@@ -30,10 +30,10 @@ layout: default
 
     <div class="pagination">
       {%- if paginator.previous_page -%}
-      <a class="previous" href="{{ paginator.previous_page_path }}">← Previous</a>&nbsp; 
+      <a class="previous" href="{{ paginator.previous_page_path }}">Prev: {{ page.list_title | default: "Posts"}}</a><br> 
       {%- endif -%}
       {%- if paginator.next_page -%}
-      <a class="next" href="{{ paginator.next_page_path }}">Next →</a>
+      <a class="next" href="{{ paginator.next_page_path }}">Next: {{ page.list_title | default: "Posts" }}</a>
       {%- endif -%}
     </div>
 
